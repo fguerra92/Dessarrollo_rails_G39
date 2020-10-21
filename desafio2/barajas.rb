@@ -1,4 +1,4 @@
-require_relative "cartas1"
+require_relative "cartas1" # se trae la clase creada en archivo cartas 1 para ser utilizado aca
 
 class Barajas
 

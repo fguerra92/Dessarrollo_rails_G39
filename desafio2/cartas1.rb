@@ -7,3 +7,5 @@ class Carta
     end
 end
 
+# se usara para require_relative con el archivo de barajas
+
