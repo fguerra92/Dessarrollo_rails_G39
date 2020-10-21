@@ -1,0 +1,20 @@
+¿Cómo se define un constructor?
+El constructor se utiliza generalmente para inicializar los atributos de los objetos.
+En la clase puedes definir métodos (el comportamiento) y atributos (información) que va a tener los objetos. A los atributos se les llama variables de instancia y a los métodos se les llama métodos de instancia
+
+¿Por qué definimos Getters y Setters?
+Los métodos getter y setter se utilizan para definir una propiedad, a estos se accede como propiedades situadas fuera de la clase, aunque las defina dentro de la clase como métodos es parte del principio de encapsulacion, para que nada externo nos aportille nuestro codigo.
+
+
+Un método "setter" sirve para "cargar un valor" (asignar un valor a una variable). 
+Un método "getter" sirve para "retornar el valor" (solo devolver la información del atributo para quién la solicite).
+
+¿Para qué sirve el principio de abstracción?
+se busca saber el resultado en vez del cómo (el cómo no lo vemos)
+
+	
+
+¿Para qué sirve la encapsulación? 
+El principio de encapsulación de la Programación Orientada a Objetos determina que los atributos de los objetos deben ser siempre privados: no deben ser accesibles desde fuera del objeto, sino que solo el objeto tiene la potestad de para escribirlos o leerlos. 
+
+Es bastante difícil no confundirlo con el señor mayor que viene a continuación, pero encapsulamiento viene a decir que tenemos que intentar restringir el acceso a algunos de los componentes del objeto y/o darle capacidades para poder operar con los datos internos. Es decir, te voy a dejar que accedas a esta propiedad de mi clase, pero te la voy a dar con control de errores, validación, sanitización o lo que se me ocurra.

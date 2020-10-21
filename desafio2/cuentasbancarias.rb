@@ -10,7 +10,6 @@ class Usuario
 end
 
 class CuentaBancaria
-
 attr_accessor :saldo
 
     def initialize(nombre_banco, numero_cuenta, saldo =0)
@@ -23,11 +22,10 @@ attr_accessor :saldo
         @saldo -= monto
         otra_cuenta.saldo += monto
     end
- 
 end
 
-cuenta_bancosantander = CuentaBancaria.new("Banco Santander", "111", 5000)
-cuenta_bancoitau = CuentaBancaria.new("Banco Itau", "222", 5000)
+cuenta_bancosantander = CuentaBancaria.new("Banco Santander", "111111", 5000)
+cuenta_bancoitau = CuentaBancaria.new("Banco Itau", "222222", 5000)
 
 #pp cuenta_bancosantander
 #pp cuenta_bancoitau
