@@ -21,12 +21,10 @@ end
 
 
 class MonthlyAppointment < Appointment
-
     def initialize(location, purpose, hour, min, day)
         super(location, purpose, hour, min) 
         @day = day
     end
-
 end
 
 
@@ -76,7 +74,6 @@ attr_accessor :day, :month, :year
         "Reunión única en #{@location} sobre #{@purpose} el #{@day}/#{@month}/#{@year} a la(s) #{@hour}:#{@min}."
         end 
 end
-
 
 
 puts OneTimeAppointment.new('Desafío Latam', 'Trabajo', 14, 30, 4, 6, 2019)
