@@ -18,3 +18,5 @@ se busca saber el resultado en vez del cómo (el cómo no lo vemos)
 El principio de encapsulación de la Programación Orientada a Objetos determina que los atributos de los objetos deben ser siempre privados: no deben ser accesibles desde fuera del objeto, sino que solo el objeto tiene la potestad de para escribirlos o leerlos. 
 
 Es bastante difícil no confundirlo con el señor mayor que viene a continuación, pero encapsulamiento viene a decir que tenemos que intentar restringir el acceso a algunos de los componentes del objeto y/o darle capacidades para poder operar con los datos internos. Es decir, te voy a dejar que accedas a esta propiedad de mi clase, pero te la voy a dar con control de errores, validación, sanitización o lo que se me ocurra.
+
+

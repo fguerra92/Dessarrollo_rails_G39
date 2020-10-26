@@ -30,7 +30,7 @@ cuenta_bancoitau = CuentaBancaria.new("Banco Itau", "222222", 5000)
 #pp cuenta_bancosantander
 #pp cuenta_bancoitau
 
-cuenta_bancosantander.transferir(1000, cuenta_bancoitau)
+cuenta_bancosantander.transferir(5000, cuenta_bancoitau)
 
 pp cuenta_bancosantander
 pp cuenta_bancoitau
