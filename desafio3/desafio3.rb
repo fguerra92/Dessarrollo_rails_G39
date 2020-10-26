@@ -20,12 +20,12 @@ class Appointment
 end 
 
 
-class MonthlyAppointment < Appointment
-    def initialize(location, purpose, hour, min, day)
-        super(location, purpose, hour, min) 
-        @day = day
-    end
-end
+#class MonthlyAppointment < Appointment
+#    def initialize(location, purpose, hour, min, day)
+#        super(location, purpose, hour, min) 
+#        @day = day
+#    end
+#end
 
 
 
@@ -51,7 +51,7 @@ class DailyAppointment < Appointment
     end
 
     def to_s
-    "Reunion diaria en #{@location} sobre #{@purpose} a las #{@hour}:#{@min}"
+    "Reunion diaria en #{@location} sobre #{@purpose} a las #{@hour}:#{@min}."
     end
 end 
 
